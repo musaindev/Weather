@@ -1,0 +1,58 @@
+name: weather_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.1
+  geocoding: ^3.0.0
+  lottie: ^3.1.2
+  permission_handler: ^10.2.0
+  get: ^4.6.6
+  geolocator: ^12.0.0
+  intl: ^0.19.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/image/
+    - assets/images/icons/
+
+  fonts:
+
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-ExtraBold.otf
+#        - asset: assets/fonts/Mona-Sans-Bold.otf
+#          weight: 700
+        - asset: assets/fonts/Gilroy-Light.otf
+          weight: 300
+#        - asset: assets/fonts/Mona-Sans-SemiBold.otf
+#          weight: 600
+
